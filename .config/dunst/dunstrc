@@ -1,0 +1,38 @@
+[global]
+font = Roboto Medium 14
+transparency = 12
+corner_radius = 12
+frame_width = 0  # Esto quita los marcos
+separator_height = 2
+separator_color = "#788591"
+icon_position = left
+stack_duplicates = false
+monitor = 0
+follow = mouse
+origin = top-right
+offset = (50, 50)
+width = 500
+height = (0, 160)
+background = "#0A162DCC"
+foreground = "#acbed0"
+frame_color = "#2F598B"
+enable_recursive_icon_lookup = true
+icon_path = /usr/share/icons/candy-icons
+
+[urgency_low]
+timeout = 4
+background = "#0A162DAA"
+foreground = "#acbed0"
+frame_color = "#788591"
+
+[urgency_normal]
+timeout = 8
+background = "#0A162DCC"
+foreground = "#acbed0"
+frame_color = "#2F598B"
+
+[urgency_critical]
+timeout = 0
+background = "#55546FCC"
+foreground = "#acbed0"
+frame_color = "#55546F"
